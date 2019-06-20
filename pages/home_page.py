@@ -15,8 +15,6 @@ class HomePage(BasePage):
         self.item = item
         self.wait_for_element(self.amazon_logo_id)
         self.wait_for_element(self.product_banner_id)
-        #TODO: change to look for text
-        #self.wait_for_element(By.ID, self.first_sign_in_text)
 
     def search_amzn(self):
         self.fill_field_by(self.search_box, self.item)
