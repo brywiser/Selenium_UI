@@ -1,7 +1,7 @@
 # Selenium_UI
 Prerequisites -
 * Python 3.7+ Installed
-* Running Chrome 75(latest version)
+* Running Chrome 75(latest version) to update -> 3 dots in top right -> Help -> About Google Chrome
 
 Running this code -
 * Clone Repo
