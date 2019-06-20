@@ -1,6 +1,6 @@
 # Selenium_UI
 Running this code
 * Clone Repo
-* Run `python setup.py install`
-* Run `pytest -s`
-* See the tests!  Works on both mac and windows.
+* cd into repo on terminal and run `python setup.py install`
+* Then run `pytest`
+* See the tests run!  Works on both mac and windows.
