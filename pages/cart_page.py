@@ -2,7 +2,6 @@ from pages.base_page import BasePage
 from selenium.webdriver.common.by import By
 
 class CartPage(BasePage):
-    #save = //*[contains(@class,'sc-product-title')][contains(text(), 'Koolkatkoo')]
     shopping_cart_text = (By.XPATH, "//h2[contains(text(),'Shopping Cart')]")
     checkout_button = (By.NAME, 'proceedToCheckout')
 
