@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 class ProductPage(BasePage):
     product_title = (By.ID, 'productTitle')
     add_to_cart = (By.ID, 'add-to-cart-button')
-    decline_warranty = (By.ID, 'attachSiNoCoverage-announce')
+    decline_warranty = (By.XPATH, "//button[@class='a-button-text'][contains(text(),'No Thanks')]")
     cart_button = (By.XPATH, "//input[@class='a-button-input'][@aria-labelledby='attach-sidesheet-view-cart-button-announce']")
     added_to_cart_slideout = (By.XPATH, "//span[@id='attach-sidesheet-view-cart-button-announce']")
     added_to_cart_heading_text = 'Cart'
