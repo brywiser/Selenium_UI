@@ -14,7 +14,7 @@ class BasePage(object):
         self.driver = driver
 
     def wait_for_element(self, locator):
-        wait = WebDriverWait(self.driver, 5)
+        wait = WebDriverWait(self.driver, 20)
         try:
             wait.until(EC.visibility_of_element_located((locator[0], locator[1])))
         except TimeoutException:
